@@ -11,13 +11,13 @@ public abstract class Person {
         this.email = email;
         this.dateOfBirth = dateOfBirth;
     }
-    public String getId() { return id; }
-    public Name getName() { return name; }
-    public String getEmail() { return email; }
-    public LocalDate getDateOfBirth() { return dateOfBirth; }
-
     public void setName(Name name) { this.name = name; }
     public void setEmail(String email) { this.email = email; }
     public void setDateOfBirth(LocalDate dateOfBirth) { this.dateOfBirth = dateOfBirth; }
     public abstract String profile();
+    
+    public String getId() { return id; }
+    public Name getName() { return name; }
+    public String getEmail() { return email; }
+    public LocalDate getDateOfBirth() { return dateOfBirth; }
 }

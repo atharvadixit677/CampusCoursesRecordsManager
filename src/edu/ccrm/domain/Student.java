@@ -19,6 +19,9 @@ public class Student extends Person{
     public void setEnrolledCourses(List<String> enrolledCourses) { this.enrolledCourses = enrolledCourses; }
     public LocalDate getEnrollmentDate() { return enrollmentDate; }
     public void setEnrollmentDate(LocalDate enrollmentDate) { this.enrollmentDate = enrollmentDate; }
+    public String getRegNo() {
+    	return regNo;
+    }
     @Override
     public String profile() {
         return String.format("Student: %s (%s)", name, regNo);
