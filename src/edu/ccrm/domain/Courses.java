@@ -26,7 +26,6 @@ public class Courses {
     public Instructor getInstructor() { return instructor; }
     public Semester getSemester() { return semester; }
     public String getDepartment() { return department; }
-
     @Override
     public String toString() {
         return String.format("Course[code=%s, title=%s, credits=%d, instructor=%s, semester=%s, department=%s]",
