@@ -1,10 +1,6 @@
 package edu.ccrm.cli;
 
 import edu.ccrm.service.*;
-import edu.ccrm.domain.*;
-import edu.ccrm.io.*;
-import edu.ccrm.config.AppConfig;
-
 import java.util.List;
 import java.util.Scanner;
 
@@ -15,10 +11,8 @@ public class CCRMApp {
     private static final CourseService courseService = new CourseServiceImpl();
     private static final EnrollmentService enrollmentService = new EnrollmentServiceImpl();
     private static final TranscriptService transcriptService = new TranscriptServiceImpl();
-    private static final ImportExportService importExportService = new ImportExportServiceImpl();
-    private static final BackupService backupService = new BackupServiceImpl();
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         printWelcomeMessage();
 
         boolean running = true;
@@ -325,9 +319,9 @@ public class CCRMApp {
         String transcript = transcriptService.generateTranscript(student, studentEnrollments);
         System.out.println("\n" + transcript);
     }
-    private static void importExportData() {
+    private static void importExportData() throws Exception {
         System.out.println("\nImport/Export Data selected.");
-        System.out.println("This is a prototype. Service Unavailable!");
+        System.out.println("Service Unavailable");
     }
     private static void backupData() {
         System.out.println("\nBackup Data selected.");

@@ -7,13 +7,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class ImportExportServiceImpl implements ImportExportService {
-
-    @Override
-    public List<Student> importStudents(String filePath) {
-        System.out.println("Importing students from " + filePath + " (prototype mode)");
-        return new ArrayList<>(); // Return empty for prototype
-    }
-
+	
     @Override
     public List<Courses> importCourses(String filePath) {
         System.out.println("Importing courses from " + filePath + " (prototype mode)");
@@ -40,4 +34,17 @@ public class ImportExportServiceImpl implements ImportExportService {
     public void exportEnrollments(List<Enrollment> enrollments, String filePath) {
         System.out.println("Exporting enrollments to " + filePath + " (prototype mode)");
     }
+
+	@Override
+	public List<Student> importStudents(String filePath) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Enrollment> importEnrollments(String filePath, List<Student> students, List<Courses> courses)
+			throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
