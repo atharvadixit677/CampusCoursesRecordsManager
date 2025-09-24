@@ -48,6 +48,7 @@ Developers write code → JDK compiles code → JVM runs compiled bytecode with 
 4. Choose “Create separate folders for sources and class files”.
 5. Click Finish.
 
+
 ### Running the project
 
 - Right-click the main class → Run As → Java Application.
@@ -55,3 +56,35 @@ Developers write code → JDK compiles code → JVM runs compiled bytecode with 
 
 ---
 
+1. Clone or Open the Project
+   Repository Link: https://github.com/atharvadixit677/CampusCoursesRecordsManager
+   Open the project in your IDE.
+
+2. Place CSV Files
+Ensure the CSV files are available at:  
+`data/students.csv`  
+`data/courses.csv`  
+`data/enrollments.csv`
+
+3. Build the Project
+Compile the Java source files in your IDE or use build tools like Maven/Gradle if configured.
+
+4. Run the Application
+Run the main class `edu.ccrm.cli.CCRMApp`. The application loads data from the CSV 
+
+### Screenshots
+
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191616.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190123.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190231.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190405.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190415.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190432.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190446.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190650.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190716.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 190904.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191041.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191122.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191251.png"
+"C:\Users\Atharva Dixit\OneDrive\Desktop\VIT Bhopal University\Fall 2025-2026\CSE2006\Assignment\CCRM\Screenshots\Screenshot 2025-09-24 191333.png"
